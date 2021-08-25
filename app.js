@@ -160,7 +160,7 @@ function reverseStr(str) {
     else {
         if(day < 1){
             month--
-            day = daysInMonth[month-2]; 
+            day = daysInMonth[month-1]; 
       }
     }
   
