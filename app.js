@@ -209,7 +209,7 @@ function reverseStr(str) {
     
     show = function(){
         processingGif.style.display = "block";
-        setTimeout(hide, 4000); 
+        setTimeout(hide, 2000); 
       },
 
       hide = function(){
