@@ -120,6 +120,7 @@ function reverseStr(str) {
   
   
   function getNextPalindromeDate(date){
+    
     var ctr = 0;
     var nextDate = getNextDate(date);
   
@@ -135,6 +136,7 @@ function reverseStr(str) {
   }
 
   function getPreviousDate(date){
+
     var day = date.day - 1;  
     var month = date.month;
     var year = date.year;
